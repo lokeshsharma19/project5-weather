@@ -1,0 +1,1 @@
+export const searchPlaces = document.getElementsByClassName()

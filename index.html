@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/67bba3e9aa.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="current-status bgcolor-left">
+        <div class="not-searching">
+          <img
+            class="bg-clouds"
+            src="./utils/lib/Cloud-background.png"
+            alt="" />
+          <div class="search-bar raleway-font">
+            <button class="search-places btn common-btns raleway-font">
+              <p>Search for places</p>
+            </button>
+            <button class="my-location common-btns btn">
+              <i class="fa-solid fa-location-crosshairs fa-sm"></i>
+            </button>
+          </div>
+          <img
+            src="./utils/lib/Shower.png"
+            class="current-weather-img"
+            alt="current weather" />
+          <div class="current-temp common-btns raleway-font">
+            <span class="current-temp-value raleway-font">15</span>
+            <span class="deg-celsius">℃</span>
+          </div>
+          <p class="current-weather raleway-font">Shower</p>
+          <div class="date-place raleway-font">
+            <span>Today</span>
+            <span>․</span>
+            <span>Fri,5 Jun</span>
+            <div class="current-place"><p>Helsinki</p></div>
+          </div>
+        </div>
+        <div class="searching raleway-font">
+          <i class="fa-solid fa-xmark fa-2xl cross" style="color: #ffffff"></i>
+          <form action="" class="search-form">
+            <input
+              type="text"
+              name="location"
+              class="location-input"
+              placeholder="search location" />
+            <button class="search-btn" type="submit">Search</button>
+          </form>
+          <div class="saved-places">
+            <div class="saved-place">London</div>
+            <div class="saved-place">Delhi</div>
+            <div class="saved-place">Mumbai</div>
+          </div>
+        </div>
+      </div>
+      <div class="right-block">
+        <div class="detail-status">
+          <div class="temp-btns right-container">
+            <button class="cel-btn common-btns btn raleway-font">
+              <span class="">℃</span>
+            </button>
+            <button class="far-btn common-btns btn raleway-font">
+              <span class="">℉</span>
+            </button>
+          </div>
+          <div class="week-days right-container">
+            <div class="day raleway-font">
+              <span>Tommorrow</span>
+              <img
+                class="weather-imgs"
+                src="./utils/lib/HeavyRain.png"
+                alt="HeavyCloud" />
+              <span class="day-temp">16℃</span>
+              <span class="night-temp">17℃</span>
+            </div>
+            <div class="day raleway-font">
+              <span>Sun, 7 Jun</span>
+              <img
+                class="weather-imgs"
+                src="./utils/lib/HeavyCloud.png"
+                alt="HeavyCloud" />
+              <span class="day-temp">16℃</span>
+              <span class="night-temp">17℃</span>
+            </div>
+            <div class="day raleway-font">
+              <span>Mon, 8 Jun</span>
+              <img
+                class="weather-imgs"
+                src="./utils/lib/HeavyCloud.png"
+                alt="HeavyCloud" />
+              <span class="day-temp">16℃</span>
+              <span class="night-temp">17℃</span>
+            </div>
+            <div class="day raleway-font">
+              <span>Tommorrow</span>
+              <img
+                class="weather-imgs"
+                src="./utils/lib/HeavyCloud.png"
+                alt="HeavyCloud" />
+              <span class="day-temp">16℃</span>
+              <span class="night-temp">17℃</span>
+            </div>
+            <div class="day raleway-font">
+              <span>Tommorrow</span>
+              <img
+                class="weather-imgs"
+                src="./utils/lib/HeavyCloud.png"
+                alt="HeavyCloud" />
+              <span class="day-temp">16℃</span>
+              <span class="night-temp">17℃</span>
+            </div>
+          </div>
+          <div class="weather-info right-container">
+            <p class="highlights-heading raleway-font">Today's Highlights</p>
+            <div class="highlights right-container">
+              <div class="highlight">
+                <p class="hl">Wind Status</p>
+                <span class="hl-value">7</span>
+                <span class="hl-value">mph</span>
+              </div>
+              <div class="highlight">
+                <p class="hl">Humidity</p>
+                <span class="hl-value">84</span>
+                <span class="hl-value">%</span>
+              </div>
+              <div class="highlight">
+                <p class="hl">Visibility</p>
+                <span class="hl-value">64</span>
+                <span class="hl-value">miles</span>
+              </div>
+              <div class="highlight">
+                <p class="hl">Air Pressure</p>
+                <span class="hl-value">998</span>
+                <span class="hl-value">mb</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

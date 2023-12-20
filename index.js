@@ -25,7 +25,7 @@ import { savedPlaceLoad } from "./utils/helper/savedPlaceLoad.js";
 // ###########{constants}
 let tempSearch;
 if (!tempSearch) {
-  tempSearch = JSON.parse(localStorage.getItem("searches"))[0];
+  tempSearch = JSON.parse(localStorage.getItem("searches"))[0] || [];
 }
 // ######## functioning
 

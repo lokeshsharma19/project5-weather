@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <script
       src="https://kit.fontawesome.com/67bba3e9aa.js"
       crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+    <title>Document</title>
   </head>
   <body>
     <div class="wrapper">
@@ -15,18 +16,18 @@
         <div class="not-searching">
           <img
             class="bg-clouds"
-            src="./utils/lib/Cloud-background.png"
+            src="./utils/Resources/Cloud-background.png"
             alt="" />
           <div class="search-bar raleway-font">
             <button class="search-places btn common-btns raleway-font">
-              <p>Search for places</p>
+              Search for places
             </button>
             <button class="my-location common-btns btn">
               <i class="fa-solid fa-location-crosshairs fa-sm"></i>
             </button>
           </div>
           <img
-            src="./utils/lib/Shower.png"
+            src="./utils/Resources/Shower.png"
             class="current-weather-img"
             alt="current weather" />
           <div class="current-temp common-btns raleway-font">
@@ -37,7 +38,7 @@
           <div class="date-place raleway-font">
             <span>Today</span>
             <span>․</span>
-            <span>Fri,5 Jun</span>
+            <span class="current-date">Fri,5 Jun</span>
             <div class="current-place"><p>Helsinki</p></div>
           </div>
         </div>
@@ -62,10 +63,10 @@
         <div class="detail-status">
           <div class="temp-btns right-container">
             <button class="cel-btn common-btns btn raleway-font">
-              <span class="">℃</span>
+              <span class="celsius">℃</span>
             </button>
             <button class="far-btn common-btns btn raleway-font">
-              <span class="">℉</span>
+              <span class="farenheit">℉</span>
             </button>
           </div>
           <div class="week-days right-container">
@@ -73,7 +74,7 @@
               <span>Tommorrow</span>
               <img
                 class="weather-imgs"
-                src="./utils/lib/HeavyRain.png"
+                src="./utils/Resources/HeavyRain.png"
                 alt="HeavyCloud" />
               <span class="day-temp">16℃</span>
               <span class="night-temp">17℃</span>
@@ -82,7 +83,7 @@
               <span>Sun, 7 Jun</span>
               <img
                 class="weather-imgs"
-                src="./utils/lib/HeavyCloud.png"
+                src="./utils/Resources/HeavyCloud.png"
                 alt="HeavyCloud" />
               <span class="day-temp">16℃</span>
               <span class="night-temp">17℃</span>
@@ -91,7 +92,7 @@
               <span>Mon, 8 Jun</span>
               <img
                 class="weather-imgs"
-                src="./utils/lib/HeavyCloud.png"
+                src="./utils/Resources/HeavyCloud.png"
                 alt="HeavyCloud" />
               <span class="day-temp">16℃</span>
               <span class="night-temp">17℃</span>
@@ -100,7 +101,7 @@
               <span>Tommorrow</span>
               <img
                 class="weather-imgs"
-                src="./utils/lib/HeavyCloud.png"
+                src="./utils/Resources/HeavyCloud.png"
                 alt="HeavyCloud" />
               <span class="day-temp">16℃</span>
               <span class="night-temp">17℃</span>
@@ -109,7 +110,7 @@
               <span>Tommorrow</span>
               <img
                 class="weather-imgs"
-                src="./utils/lib/HeavyCloud.png"
+                src="./utils/Resources/HeavyCloud.png"
                 alt="HeavyCloud" />
               <span class="day-temp">16℃</span>
               <span class="night-temp">17℃</span>
@@ -120,22 +121,22 @@
             <div class="highlights right-container">
               <div class="highlight">
                 <p class="hl">Wind Status</p>
-                <span class="hl-value">7</span>
+                <span class="hl-value wind-speed">7</span>
                 <span class="hl-value">mph</span>
               </div>
               <div class="highlight">
                 <p class="hl">Humidity</p>
-                <span class="hl-value">84</span>
+                <span class="hl-value humidity">84</span>
                 <span class="hl-value">%</span>
               </div>
               <div class="highlight">
                 <p class="hl">Visibility</p>
-                <span class="hl-value">64</span>
-                <span class="hl-value">miles</span>
+                <span class="hl-value visibility">64</span>
+                <span class="hl-value">meters</span>
               </div>
               <div class="highlight">
                 <p class="hl">Air Pressure</p>
-                <span class="hl-value">998</span>
+                <span class="hl-value air-pressure">998</span>
                 <span class="hl-value">mb</span>
               </div>
             </div>

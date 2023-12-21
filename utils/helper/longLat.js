@@ -1,4 +1,5 @@
 import { apiKey } from "../constants.js";
+// import { fiveDaysWeather } from "./5DaysWeather.js";
 import { getWeather } from "./getWeather.js";
 
 export const longLat = (location, inCelsius) => {
@@ -14,6 +15,7 @@ export const longLat = (location, inCelsius) => {
     })
     .then((data) => {
       getWeather(data[0].lat, data[0].lon, inCelsius);
+      // fiveDaysWeather(data[0].lat, data[0].lon, inCelsius);
     })
     .catch((error) => {
       alert(error);

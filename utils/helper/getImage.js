@@ -1,7 +1,6 @@
 import { currentTempImg } from "../constants.js";
 
-export const getImage = (data) => {
-  let imgCode = data.weather[0].icon;
+export const getImage = (imgCode, ele) => {
   const imgURL = `https://openweathermap.org/img/wn/${imgCode}@4x.png`;
   fetch(imgURL)
     .then((Response) => {
@@ -13,7 +12,7 @@ export const getImage = (data) => {
     })
     .then((imgBlob) => {
       const imgBlobUrl = URL.createObjectURL(imgBlob);
-      currentTempImg.src = imgBlobUrl;
+      ele.src = imgBlobUrl;
     })
     .catch((error) => {
       console.error("Error fetching image:", error);

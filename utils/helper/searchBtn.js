@@ -7,5 +7,4 @@ export const searchHandle = (e) => {
 };
 export const crossHandle = (e) => {
   searching.style.transform = "translateX(-110%)";
-  savedPlaces.style.display = "none";
 };

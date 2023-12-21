@@ -1,6 +1,6 @@
 // ########## {Api variables}
 
-export const apiKey = "79f7a600f0fa87ca2dbc3dd58d116c7d";
+export const apiKey = "86e8f0d342ec9ec4165462b9f4351635";
 
 // ######### /{variables}\
 
@@ -30,3 +30,5 @@ export const windSpeed = document.querySelector(".wind-speed");
 export const humidity = document.querySelector(".humidity");
 export const visibility = document.querySelector(".visibility");
 export const airPressure = document.querySelector(".air-pressure");
+
+export const days = document.querySelectorAll(".day");

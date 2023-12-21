@@ -22,13 +22,14 @@ import { longLat } from "./utils/helper/longLat.js";
 import { loadOldWeather } from "./utils/lib/localStorageWork.js";
 import { savedPlaceLoad } from "./utils/helper/savedPlaceLoad.js";
 
+// ##########{initials}
+loadOldWeather();
 // ###########{constants}
 let tempSearch;
 if (!tempSearch) {
   tempSearch = JSON.parse(localStorage.getItem("searches"))[0] || [];
 }
 // ######## functioning
-
 searchPlaces.addEventListener("click", (e) => {
   searchHandle(e);
 });

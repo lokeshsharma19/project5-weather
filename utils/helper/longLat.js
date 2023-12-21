@@ -4,7 +4,7 @@ import { getWeather } from "./getWeather.js";
 
 export const longLat = (location, inCelsius) => {
   console.log(location);
-  const locationUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${apiKey}`;
+  const locationUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${apiKey}`;
   fetch(locationUrl)
     .then((Response) => {
       if (Response) {

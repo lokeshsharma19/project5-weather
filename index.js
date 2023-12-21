@@ -43,10 +43,14 @@ myLocation.addEventListener("click", (e) => {
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   tempSearch = locationInput.value.trim();
-  searchedLocation(tempSearch);
-  locationInput.value = "";
-  crossHandle();
-  savedPlaceLoad();
+  if (tempSearch) {
+    searchedLocation(tempSearch);
+    locationInput.value = "";
+    crossHandle();
+    savedPlaceLoad();
+  } else {
+    alert("enter something");
+  }
 });
 celBtn.addEventListener("click", () => {
   longLat(tempSearch, true);

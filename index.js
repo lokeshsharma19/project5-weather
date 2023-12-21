@@ -25,10 +25,7 @@ import { savedPlaceLoad } from "./utils/helper/savedPlaceLoad.js";
 // ##########{initials}
 loadOldWeather();
 // ###########{constants}
-let tempSearch;
-if (!tempSearch) {
-  tempSearch = JSON.parse(localStorage.getItem("searches"))[0] || [];
-}
+let tempSearch = ["Pune"];
 // ######## functioning
 searchPlaces.addEventListener("click", (e) => {
   searchHandle(e);

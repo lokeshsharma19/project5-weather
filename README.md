@@ -1,6 +1,6 @@
-# 🌦️ Weather App
+# 🌦️ [Weather App](https://lokeshsharma19.github.io/project5-weather/)
 
-A minimalist weather app built with JavaScript (ES6 modules) that utilizes local storage and OpenWeatherMap API for accurate and up-to-date weather information.
+Explore the live demo [here](https://lokeshsharma19.github.io/project5-weather/) for a minimalist weather app built with JavaScript (ES6 modules). It utilizes local storage and the OpenWeatherMap API for accurate and up-to-date weather information.
 
 ## Features
 - Seamless integration of ES6 modules for organized and modular code.
